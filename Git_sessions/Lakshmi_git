@@ -1,0 +1,5 @@
+SELECT n.employee_name, a.city, d.city 
+FROM employee_trail n 
+JOIN employee_address1 a ON a.employee_number = n.employee_number 
+JOIN Departments d ON d.department_id = a.department_id 
+WHERE d.city = a.city;
