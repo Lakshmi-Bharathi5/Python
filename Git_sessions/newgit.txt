@@ -1,0 +1,7 @@
+Git is a distributed version control system (VCS) that allows developers to track changes to their codebase, collaborate with others, and maintain a history of their project's development. It helps manage projects by keeping track of changes, allowing multiple developers to work on the same codebase simultaneously without overwriting each other's work.
+
+Key Features of Git:
+Version Tracking: Git tracks changes over time, creating a history of edits. You can review previous versions of your project, compare changes, and revert to earlier versions if necessary.
+Branching and Merging: Git allows you to create branches, which are separate "copies" of the project where you can experiment or work on features without affecting the main codebase. These branches can later be merged back into the main branch.
+Distributed: Every developer has a full copy of the repository, including its history. This means you can work offline, and your changes can later be synchronized with others.
+Commit Snapshots: Each commit in Git is like a snapshot of your project at a particular point in time, recording what has changed and why, along with a unique ID (hash).
